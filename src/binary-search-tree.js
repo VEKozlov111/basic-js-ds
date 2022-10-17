@@ -19,7 +19,7 @@ class BinarySearchTree {
     this.root = null;
   }
   root() {
-    function roots() { return this.root; }
+    return function roots() { return this.root; }
 
   }
 
